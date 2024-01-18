@@ -1,0 +1,139 @@
+/* Write your CSS code here */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .login-container {
+    padding: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 85vh;
+    margin-top: 0px;
+  }
+}
+
+.login-website-image {
+  width: 80%;
+  min-width: 150px;
+  max-width: 350px;
+}
+
+@media screen and (min-width: 576px) {
+  .login-website-image {
+    width: 45%;
+    max-width: 500px;
+  }
+}
+
+.login-sm-form-logo {
+  width: 200px;
+  display: block;
+  margin: 20px 0px 30px 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .login-sm-form-logo {
+    width: 250px;
+    display: none;
+  }
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 576px) {
+  .login-form-container {
+    width: 30%;
+    padding: 30px 20px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+  }
+}
+
+.login-lg-form-logo {
+  width: 200px;
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .login-lg-form-logo {
+    width: 250px;
+    display: block;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .form-container {
+    margin-top: 30px;
+    width: 80%;
+  }
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+  padding-bottom: 5px;
+}
+
+.username-input {
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #d7dfe9;
+  color: #64748b;
+  border: 0px;
+  border-radius: 4px;
+  outline: 0px;
+  margin-bottom: 15px;
+}
+
+.password-input {
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #d7dfe9;
+  color: #64748b;
+  border: 0px;
+  border-radius: 4px;
+  outline: 0px;
+  margin-bottom: 25px;
+}
+
+.form-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  outline: 0px;
+  padding: 10px;
+  font-family: 'Roboto';
+}
+.error-message {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 12px;
+  align-self: flex-start;
+}
